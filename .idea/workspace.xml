@@ -4,25 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="652a08ca-1452-48a4-8171-257b6211f238" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/cloud_eureka-server7001/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud_eureka-server7001/src/main/java/com/imikasa/EurekaServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud_eureka-server7001/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud_eureka-server7002/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud_eureka-server7002/src/main/java/com/imikasa/EurekaServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud_eureka-server7002/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="652a08ca-1452-48a4-8171-257b6211f238" name="Changes" comment="register servers ...">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud_consumer-order80/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud_consumer-order80/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud_consumer-order80/src/main/java/com/imikasa/OrderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud_consumer-order80/src/main/java/com/imikasa/OrderApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud_consumer-order80/src/main/java/com/imikasa/config/MyApplicationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud_consumer-order80/src/main/java/com/imikasa/config/MyApplicationConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud_consumer-order80/src/main/java/com/imikasa/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud_consumer-order80/src/main/java/com/imikasa/controller/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud_consumer-order80/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud_consumer-order80/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud_provider_payment8001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud_provider_payment8001/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud_provider_payment8001/src/main/java/com/imikasa/PaymentApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud_provider_payment8001/src/main/java/com/imikasa/PaymentApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud_provider_payment8001/src/main/java/com/imikasa/dao/impl/PaymentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud_provider_payment8001/src/main/java/com/imikasa/service/impl/PaymentServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud_provider_payment8001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud_provider_payment8001/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud_provider_payment8001/src/main/java/com/imikasa/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud_provider_payment8001/src/main/java/com/imikasa/controller/PaymentController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,8 +162,16 @@
       <option name="presentableId" value="Default" />
       <updated>1647438305145</updated>
       <workItem from="1647438308508" duration="10113000" />
-      <workItem from="1647475967558" duration="13389000" />
+      <workItem from="1647475967558" duration="16253000" />
     </task>
+    <task id="LOCAL-00001" summary="register servers ...">
+      <created>1647499093538</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1647499093539</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,5 +190,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="register servers ..." />
+    <option name="LAST_COMMIT_MESSAGE" value="register servers ..." />
   </component>
 </project>
