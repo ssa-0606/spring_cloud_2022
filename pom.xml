@@ -14,6 +14,8 @@
         <module>cloud_provider_payment8001</module>
         <module>cloud_consumer-order80</module>
         <module>cloud-api-commons</module>
+        <module>cloud_eureka-server7001</module>
+        <module>cloud_eureka-server7002</module>
     </modules>
 
 
@@ -24,18 +26,21 @@
 
     <dependencyManagement>
         <dependencies>
+            <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-dependencies -->
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-dependencies</artifactId>
-                <version>2.6.1</version>
+                <version>2.3.10.RELEASE</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
 
+
+            <!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-dependencies -->
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-dependencies</artifactId>
-                <version>2021.0.0</version>
+                <version>Hoxton.SR9</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>

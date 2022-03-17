@@ -4,7 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="652a08ca-1452-48a4-8171-257b6211f238" name="Changes" comment="" />
+    <list default="true" id="652a08ca-1452-48a4-8171-257b6211f238" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/cloud_eureka-server7001/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_eureka-server7001/src/main/java/com/imikasa/EurekaServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_eureka-server7001/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_eureka-server7002/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_eureka-server7002/src/main/java/com/imikasa/EurekaServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_eureka-server7002/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud_consumer-order80/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud_consumer-order80/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud_consumer-order80/src/main/java/com/imikasa/OrderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud_consumer-order80/src/main/java/com/imikasa/OrderApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud_consumer-order80/src/main/java/com/imikasa/config/MyApplicationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud_consumer-order80/src/main/java/com/imikasa/config/MyApplicationConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud_consumer-order80/src/main/java/com/imikasa/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud_consumer-order80/src/main/java/com/imikasa/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud_consumer-order80/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud_consumer-order80/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud_provider_payment8001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud_provider_payment8001/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud_provider_payment8001/src/main/java/com/imikasa/PaymentApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud_provider_payment8001/src/main/java/com/imikasa/PaymentApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud_provider_payment8001/src/main/java/com/imikasa/dao/impl/PaymentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud_provider_payment8001/src/main/java/com/imikasa/service/impl/PaymentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud_provider_payment8001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud_provider_payment8001/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +37,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
       <filtered-out-file-type name="LOCAL_BRANCH" />
@@ -29,12 +51,19 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
   <component name="ProjectId" id="26TCgnpNPgccLQDCSROhwdGx3Ko" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -42,11 +71,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud_consumer-order80/src/main/java/com/imikasa" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-api-commons/src/main/java/com/imikasa" />
     <property name="settings.editor.selected.configurable" value="advanced.settings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Mikasa\IdeaProjects\spring_cloud_2022\cloud-api-commons\src\main\java\com\imikasa" />
       <recent name="C:\Users\Mikasa\IdeaProjects\spring_cloud_2022\cloud_consumer-order80\src\main\java\com\imikasa" />
     </key>
   </component>
@@ -56,8 +86,46 @@
         <option value="SpringBootApplicationConfigurationType" />
       </set>
     </option>
+    <option name="hiddenConfigurations">
+      <map>
+        <entry key="SpringBootApplicationConfigurationType">
+          <value>
+            <set>
+              <option value="PaymentApplication" />
+              <option value="PaymentApplication1" />
+            </set>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.OrderApplication">
+  <component name="RunManager" selected="Spring Boot.PaymentApplication">
+    <configuration name="EurekaServer (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud_eureka-server7002" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imikasa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.imikasa.EurekaServer" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud_eureka-server7001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imikasa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.imikasa.EurekaServer" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="OrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="cloud_consumer-order80" />
       <extension name="coverage">
@@ -67,6 +135,7 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.imikasa.OrderApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -84,10 +153,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Spring Boot.EurekaServer" />
+      <item itemvalue="Spring Boot.EurekaServer (1)" />
+      <item itemvalue="Spring Boot.OrderApplication" />
+      <item itemvalue="Spring Boot.PaymentApplication" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.OrderApplication" />
         <item itemvalue="Spring Boot.PaymentApplication" />
+        <item itemvalue="Spring Boot.OrderApplication" />
+        <item itemvalue="Spring Boot.EurekaServer (1)" />
+        <item itemvalue="Spring Boot.EurekaServer" />
       </list>
     </recent_temporary>
   </component>
@@ -99,11 +176,26 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1647438305145</updated>
-      <workItem from="1647438308508" duration="8742000" />
+      <workItem from="1647438308508" duration="10113000" />
+      <workItem from="1647475967558" duration="13389000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

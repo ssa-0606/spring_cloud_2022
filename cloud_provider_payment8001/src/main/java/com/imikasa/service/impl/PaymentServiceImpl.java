@@ -1,4 +1,4 @@
-package com.imikasa.dao.impl;
+package com.imikasa.service.impl;
 
 import com.imikasa.dao.PaymentDao;
 import com.imikasa.entities.Payment;
