@@ -1,0 +1,22 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="PaymentApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <module name="cloud_provider_payment8001" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="com.imikasa.PaymentApplication" />
+    <option name="ALTERNATIVE_JRE_PATH" />
+    <additionalParameters>
+      <param>
+        <option name="enabled" value="true" />
+        <option name="name" value="server.port" />
+        <option name="value" value="8002" />
+      </param>
+      <param>
+        <option name="enabled" value="true" />
+        <option name="name" value="eureka.instance.instance-id" />
+        <option name="value" value="" />
+      </param>
+    </additionalParameters>
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="652a08ca-1452-48a4-8171-257b6211f238" name="Changes" comment="register servers ...">
+    <list default="true" id="652a08ca-1452-48a4-8171-257b6211f238" name="Changes" comment="register servers (version 0.01)...">
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8011/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8011/src/main/java/com/imikasa/PaymentApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8011/src/main/java/com/imikasa/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8011/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud_provider_payment8001/src/main/java/com/imikasa/PaymentApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud_provider_payment8001/src/main/java/com/imikasa/PaymentApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud_provider_payment8001/src/main/java/com/imikasa/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud_provider_payment8001/src/main/java/com/imikasa/controller/PaymentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +61,10 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-api-commons/src/main/java/com/imikasa" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="advanced.settings" />
   </component>
   <component name="RecentsManager">
@@ -84,7 +92,7 @@
       </map>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.PaymentApplication">
+  <component name="RunManager" selected="Spring Boot.PaymentApplication (2)">
     <configuration name="EurekaServer (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="cloud_eureka-server7002" />
       <extension name="coverage">
@@ -125,8 +133,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PaymentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="cloud_provider_payment8001" />
+    <configuration name="PaymentApplication (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-provider-payment8002" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.imikasa.*" />
@@ -138,18 +146,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PaymentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud_provider_payment8001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imikasa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.imikasa.PaymentApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="Spring Boot.PaymentApplication (1)" />
       <item itemvalue="Spring Boot.EurekaServer" />
       <item itemvalue="Spring Boot.EurekaServer (1)" />
       <item itemvalue="Spring Boot.OrderApplication" />
       <item itemvalue="Spring Boot.PaymentApplication" />
+      <item itemvalue="Spring Boot.PaymentApplication (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.PaymentApplication (2)" />
         <item itemvalue="Spring Boot.PaymentApplication" />
-        <item itemvalue="Spring Boot.OrderApplication" />
         <item itemvalue="Spring Boot.EurekaServer (1)" />
         <item itemvalue="Spring Boot.EurekaServer" />
+        <item itemvalue="Spring Boot.OrderApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +187,7 @@
       <option name="presentableId" value="Default" />
       <updated>1647438305145</updated>
       <workItem from="1647438308508" duration="10113000" />
-      <workItem from="1647475967558" duration="16253000" />
+      <workItem from="1647475967558" duration="28110000" />
     </task>
     <task id="LOCAL-00001" summary="register servers ...">
       <created>1647499093538</created>
@@ -171,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647499093539</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="register servers (version 0.01)...">
+      <created>1647502089393</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1647502089393</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,6 +223,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="register servers ..." />
-    <option name="LAST_COMMIT_MESSAGE" value="register servers ..." />
+    <MESSAGE value="register servers (version 0.01)..." />
+    <option name="LAST_COMMIT_MESSAGE" value="register servers (version 0.01)..." />
   </component>
 </project>
